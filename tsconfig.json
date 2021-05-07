@@ -9,7 +9,8 @@
     "declaration": false,
     "noImplicitAny": false,
     "resolveJsonModule": true,
-    "outDir": "tmp"
+    "outDir": "tmp",
+    "typeRoots": ["/node_modules/@types/"]
   },
   "include": [
     "**/*"
