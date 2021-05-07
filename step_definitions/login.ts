@@ -1,7 +1,8 @@
 import { AccountDetailPageObject } from "../pages/accountDetailPage";
 import { LoginPageObject } from "../pages/loginPage";
 import { HomepageObject } from "../pages/homepage";
-const { Given, When, Then } = require("cucumber");
+import { adminLogin } from "../testdata/login"
+const { When, Then } = require("cucumber");
 const chai = require("chai").use(require("chai-as-promised"));
 const expect = chai.expect;
 const assert = chai.assert;
@@ -11,11 +12,11 @@ const loginpage: LoginPageObject = new LoginPageObject();
 const accountDetailPage: AccountDetailPageObject = new AccountDetailPageObject();
 
 When(/^I enter correct username$/, async () => {
-  await loginpage.usernameField.sendKeys("admin");
+  await loginpage.usernameField.sendKeys(adminLogin.username);
 });
 
 When(/^I enter correct password$/, async () => {
-  await loginpage.passwordField.sendKeys("admin");
+  await loginpage.passwordField.sendKeys(adminLogin.password);
 });
 
 When(/^I submit the form$/, async () => {
