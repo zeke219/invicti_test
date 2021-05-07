@@ -4,10 +4,10 @@ Precondition:
 Make sure you have node.js and Java8 before running the script.
 
 Project Setup:
-1. Go into project folder
-2. Open Terminal
+1. Open Terminal
+2. Go into project folder
 3. Run `npm install -g cucumber`
-4. In the project folder, run `npm install`
+4. Run `npm install`
 
 Running Tests:
 1. Open Terminal
