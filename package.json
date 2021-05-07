@@ -8,7 +8,9 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "pretest": "webdriver-manager update && webdriver-manager start",
-    "startTest": "protractor tmp/conf.js"
+    "startTest": "protractor tmp/conf.js",
+    "startSanity": "protractor tmp/conf.js --cucumberOpts.tags @Sanity"
+
   },
   "repository": {
     "type": "git",
