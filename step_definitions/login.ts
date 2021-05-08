@@ -2,7 +2,7 @@ import { AccountDetailPageObject } from "../pages/accountDetailPage";
 import { LoginPageObject } from "../pages/loginPage";
 import { HomepageObject } from "../pages/homepage";
 import { adminLogin } from "../testdata/login"
-const { When, Then } = require("cucumber");
+const { When, Then } = require("@cucumber/cucumber");
 const chai = require("chai").use(require("chai-as-promised"));
 const expect = chai.expect;
 const assert = chai.assert;

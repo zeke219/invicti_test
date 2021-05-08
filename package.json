@@ -32,7 +32,6 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "cucumber": "^5.1.0",
-    "protractor": "^5.1.2"
+    "protractor": "^7.0.0"
   }
 }
