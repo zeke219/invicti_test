@@ -33,6 +33,6 @@
   },
   "dependencies": {
     "cucumber": "^5.1.0",
-    "protractor": "^7.0.0"
+    "protractor": "^5.1.2"
   }
 }
