@@ -6,9 +6,7 @@ Make sure you have node.js and Java8 before running the script.
 Project Setup:
 1. Open Terminal
 2. Go into project folder
-3. Run `npm install -g cucumber`
-4. Run `npm install -g protractor`
-5. Run `npm install`
+3. Run `npm install`
 
 Running Tests:
 1. Open Terminal
